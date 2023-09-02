@@ -15,8 +15,5 @@ I am Ryan Flores, a passionate software engineer with a desire to learn more abo
 
 ## Problem Solutions
 
-- Total LeetCode Problems Solved: 6
+- Total LeetCode Problems Solved: 5
 - Languages Used: C#
-- Notable Achievements:
-  - [Mention any particularly challenging or interesting problems you've tackled]
-  - [Optional: Include links to specific problem folders or solutions if applicable]
