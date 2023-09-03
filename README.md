@@ -11,7 +11,7 @@ Welcome to my LeetCode solutions repository! Here, you'll find a collection of s
 
 ## About Me
 
-I am Ryan Flores, a passionate software engineer with a desire to learn more about algorithmic problem-solving and data structures.
+I am Ryan Flores, a software engineer with a desire to learn more about algorithmic problem-solving and data structures.
 
 ## Problem Solutions
 
