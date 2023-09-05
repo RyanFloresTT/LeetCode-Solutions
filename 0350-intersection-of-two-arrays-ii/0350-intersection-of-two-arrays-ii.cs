@@ -7,9 +7,11 @@ public class Solution {
         Dictionary<int, int> num2Dict = CountArrayToDict(nums2);
         Dictionary<int, int> smallDict = num1Dict.Count <= num2Dict.Count ? num1Dict : num2Dict;
         
+        int smallKey;
+
         foreach (var kvp in smallDict){
             if (num1Dict.ContainsKey(kvp.Key) && num2Dict.ContainsKey(kvp.Key)){
-                int smallKey = num1Dict[kvp.Key] <= num2Dict[kvp.Key] ? num1Dict[kvp.Key] : num2Dict[kvp.Key];
+                smallKey = num1Dict[kvp.Key] <= num2Dict[kvp.Key] ? num1Dict[kvp.Key] : num2Dict[kvp.Key];
                 for (int i = 0; i < smallKey; i++){
                     result.Add(kvp.Key);
                 }
