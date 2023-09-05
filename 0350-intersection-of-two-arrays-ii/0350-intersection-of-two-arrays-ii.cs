@@ -5,11 +5,10 @@ public class Solution {
         
         Dictionary<int, int> num1Dict = CountArrayToDict(nums1);
         Dictionary<int, int> num2Dict = CountArrayToDict(nums2);
-        Dictionary<int, int> smallDict = num1Dict.Count <= num2Dict.Count ? num1Dict : num2Dict;
         
         int smallKey;
 
-        foreach (var kvp in smallDict){
+        foreach (var kvp in num1Dict.Count <= num2Dict.Count ? num1Dict : num2Dict){
             if (num1Dict.ContainsKey(kvp.Key) && num2Dict.ContainsKey(kvp.Key)){
                 smallKey = num1Dict[kvp.Key] <= num2Dict[kvp.Key] ? num1Dict[kvp.Key] : num2Dict[kvp.Key];
                 for (int i = 0; i < smallKey; i++){
