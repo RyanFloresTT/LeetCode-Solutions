@@ -15,5 +15,5 @@ I am Ryan Flores, a software engineer with a desire to learn more about algorith
 
 ## Problem Solutions
 
-- Total LeetCode Problems Solved: 14
-- Languages Used: C#
+- Total LeetCode Problems Solved: 26
+- Languages Used: C#, C++
